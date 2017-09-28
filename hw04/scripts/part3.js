@@ -49,7 +49,7 @@ const getData = () => {
 
             // clear out existing tweets:
             clearData()
-
+/*
             // output the text of the first tweet:
             status = json.statuses[0]
             div = document.createElement("div")
@@ -66,25 +66,48 @@ const getData = () => {
             div.appendChild(textNode)
             document.getElementById("results").appendChild(div)
 
-            // 1. Describe what you think this code is doing.
+            // 1. Describe what you think this code is doing. RESPONSE: This code is searching for the first two instances of the search term apppearing in the status (text) field of the tweet. The search term may appear in any language that has that term in its vocabulary.
 
-            // 2. output the text of the third tweet:
+            // 2. output the text of the third tweet: RT @tbrown_19: My man Zack really made my day!! Really enjoyed the cookies!! Made me feel a lot better 😌 https://t.co/8mR5xtmlea
 
-            // 3. output the text of the fourth tweet:
+            status = json.statuses[2]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
 
-            // 4. output the text of the fifth tweet:
+            // 3. output the text of the fourth tweet: Nothing makes me more despondent than seeing "sugar free" sugar cookies at the grocery store. It's like, what are you?! ...Fucking Obama.
 
+
+            status = json.statuses[3]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
+
+            // 4. output the text of the fifth tweet: RT @pentagontexts: changgu: WHO ATE ALL THE COOKIES DO U WANNA FUCKIN GO yanan: it was me changgu: ...ON A DATE
+
+
+            status = json.statuses[4]
+            div = document.createElement("div")
+            div.className = "tweet"
+            textNode = document.createTextNode(status.text)
+            div.appendChild(textNode)
+            document.getElementById("results").appendChild(div)
+*/
             // 5. comment the code above, starting from after the clearData,
             //    and ending right before this comment. Then, un-comment the
-            //    code below:
+            //    code below: RESPONSE: I believe the forEach code is eliminating the specificity of the earlier code examples that asks for certain results within the array. In this case all instances are listed based on the search term used.
 
-            /*json.statuses.forEach(function (status) {
+            json.statuses.forEach(function (status) {
                 div = document.createElement("div")
                 div.className = "tweet"
                 textNode = document.createTextNode(status.text)
                 div.appendChild(textNode)
                 document.getElementById("results").appendChild(div)
-            })*/
+            })
 
         })
 };

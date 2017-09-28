@@ -1,5 +1,15 @@
 //Daniel Lippincott
 
+//part2 #1: The Getdata function looks for the first instance of the word aka 'term' that has been entered in the search field within a twitter feed. It then displays all the data related to that tweet.
+
+//part2 #2: to reference the first status in the jsonData list you would use the command jsonData.statuses[0]
+
+//part2 #3: this command gives the text of the fourth instance in the array: jsonData.statuses[4].text
+
+//E.C.: jsonData.statuses[1].user.name
+
+
+
 let language = 'English'
 let languageCode = 'en'
 let jsonData
