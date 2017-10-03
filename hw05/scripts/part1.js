@@ -26,8 +26,23 @@ const reverseText = (text) => {
     return text.split('').reverse().join('')
 }
 
-//Part 1 homework comments:  my 'reverseText' function is supposed to split the text within the tweet into individual characters, then reverse those characters, and then join them back together in reverse order. Simple. Too bad my code doesn't work even though there are no errors in the console. Very confusing!
+//Part 1 homework comments:  my 'reverseText' function is supposed to split the text within the tweet into individual characters, then reverse those characters, and then join them back together in reverse order. Simple. :P
 
+
+const reverseTweet = (tweetText) => {
+  //if it has a hashtag, return normal tweetText
+
+
+  if (tweetText.indexOf('#') === -1) {
+
+    return reverseText(tweetText)
+
+  } else {
+    return tweetText
+
+  }
+
+}
 
 const reverseText_attempt2 = (str) => {
     // Step 1. Use the split() method to return a new array
@@ -66,21 +81,6 @@ const reverseText_attempt1 = (theText) => {
 
 }
 
-
-const reverseTweet = (tweetText) => {
-  //if it has a hashtag, return normal tweetText
-
-
-  if (tweetText.indexOf('#') === -1) {
-
-    return reverseText(tweetText)
-
-  } else {
-    return tweetText
-
-  }
-
-}
 
 
 

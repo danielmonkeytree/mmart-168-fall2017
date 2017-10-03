@@ -17,7 +17,10 @@ This homework will require some googling. As a software engineer, a lot of what 
 6. Verify that you are now on the new branch: `$ git branch` (check that your new branch has an asterik next to it).
 
 ## PART II: Reading response
-Edit README.MD and write your reading response here!
+
+I'm not sure if this qualifies as a reading exercise, but what I did this week was explore and learn from the Flexbox Froggy game, which I found extremely useful as I had recently been struggling with positioning issues in my homework for the CSS++ class with Mr. Hoffman. The website provides an entertaining and engaging way to learn some command fundamentals that are best absorbed through repetition and practical application. I'm grateful for the expanded resource section of this class and hope to be able to keep exploring the good content within.
+
+
 
 ## Part III: JavaScript Homework
 
