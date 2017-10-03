@@ -3,6 +3,7 @@
 > * Part I: Using Github like the cool kids we are
 > * Part II: Homework
 > * To submit: See Part II, Step 4
+> * Making a change just for fun! to use 'git status'
 
 ## Preamble
 This homework will require some googling. As a software engineer, a lot of what you'll need to do is express what you're TRYING to do, and then read code and documentation in order to achieve it. Remember: StackOverflow and Mozilla Developer Network (MDN) are your friend!

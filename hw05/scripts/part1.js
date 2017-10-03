@@ -19,6 +19,71 @@ const setLanguage = (code) => {
     getData()
 }
 
+
+
+const reverseText = (text) => {
+
+    return text.split('').reverse().join('')
+}
+
+//Part 1 homework comments:  my 'reverseText' function is supposed to split the text within the tweet into individual characters, then reverse those characters, and then join them back together in reverse order. Simple. Too bad my code doesn't work even though there are no errors in the console. Very confusing!
+
+
+const reverseText_attempt2 = (str) => {
+    // Step 1. Use the split() method to return a new array
+    var splitString = str.split('')
+    // var splitString = "hello".split("");
+    // ["h", "e", "l", "l", "o"]
+
+    // Step 2. Use the reverse() method to reverse the new created array
+    var reverseArray = splitString.reverse() // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
+    // ["o", "l", "l", "e", "h"]
+
+    // Step 3. Use the join() method to join all elements of the array into a string
+    var joinArray = reverseArray.join('') // var joinArray = ["o", "l", "l", "e", "h"].join("");
+    // "olleh"
+
+    //Step 4. Return the reversed string
+    return joinArray
+
+    // "olleh"
+}
+
+
+
+
+
+const reverseText_attempt1 = (theText) => {
+  //1. Split the string (theText) into an array of characters
+  //2. Reverse the order of the array
+  //2. Convert sorted array back in reverse order
+  let reversedText = ''
+    for(let i = theText.length - 1; i >=0; i--) {
+    console.log(theText[i])
+
+  }
+
+
+}
+
+
+const reverseTweet = (tweetText) => {
+  //if it has a hashtag, return normal tweetText
+
+
+  if (tweetText.indexOf('#') === -1) {
+
+    return reverseText(tweetText)
+
+  } else {
+    return tweetText
+
+  }
+
+}
+
+
+
 const clearData = () => {
     const element = document.getElementById('results')
     while (element.firstChild) {
@@ -67,10 +132,11 @@ const getData = () => {
             json.statuses.forEach((status) => {
                 div = document.createElement('div')
                 div.className = 'tweet'
-                textNode = document.createTextNode(status.text)
+                textNode = document.createTextNode(reverseTweet(status.text))
+                document.createTextNode(reverseText(status.text))
                 div.appendChild(textNode)
                 document.getElementById('results').appendChild(div)
             })
 
         })
-}
+      }
