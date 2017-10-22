@@ -18,6 +18,9 @@ This homework will require some googling. As a software engineer, a lot of what 
 ## PART II: Reading response
 Edit README.MD and write your reading response here!
 
+WOW! Just finished the CSS selectors game and I was absolutely shocked at how in-depth and versatile the language actually is. It was a challenging and sometimes frustrating process of figuring out which combinations  to use in order to reach then stated selection goal. I was drawn to the exercise because I often forget the most basic syntax rules which determine what kind of element you are trying to work with. Now I feel much more confident in the basics and I can see how quickly and efficiently I can pinpoint specific elements in the html designs that I'll be making in the other classes in the coming weeks. Awesome :)
+
+
 ## Part III: JavaScript Homework
 
 Twitter used to have a star to show that users had "favorited" a tweet. They changed it to a heart at some point, but, honestly, it's easier to make a star in Illustrator, so we're making our Twitter with stars.

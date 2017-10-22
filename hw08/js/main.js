@@ -2,7 +2,13 @@
 // PART I: Using a while loop, print the message provided 100 times
 //------------------------------------------------------------------
 
-const name = 'John'
+const name = 'Donald eres un pendejo'
+
+  let i = 0
+  while (i<100) {
+    console.log(name)
+    i++
+  }
 
 // Creates a list element and appends it to the unordered list in part1
 const appendListElement = (text) => {
