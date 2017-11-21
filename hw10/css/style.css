@@ -1,3 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
+    font-family: 'Roboto', sans-serif;
     background: #F0F0F0;
+}
+
+.train-square {
+  width: 20px;
+  height: 20px;
+
+}
+
+#station_list {
+    width: 100%;
+    height: 2em;
+    font-size: 20px;
+    background-color: chocolate;
+}
+
+
+span {
+  border: solid 1px #CCC;
+  margin: 5px;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+
+}
+
+
+p {
+  font-weight: bold;
+
+}
+
+div {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.frame {
+  width: 400px;
+  background: #FFF;
+  margin: 20px 10px 10px 20px;
+
 }
