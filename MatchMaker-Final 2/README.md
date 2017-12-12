@@ -1,3 +1,6 @@
+Follow this link to view the MatchMaker app!
+http://17r.berkeleycollege.me/LippincottD/JS-Final-MatchMaker_app/mm_home.html 
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Full Width Pics](http://startbootstrap.com/template-overviews/full-width-pics/)
 
 [Full Width Pics](http://startbootstrap.com/template-overviews/full-width-pics/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features numerous full width background image content sections.
